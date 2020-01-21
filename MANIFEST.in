@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include saft_export *.css
+recursive-include saft_export *.csv
+recursive-include saft_export *.html
+recursive-include saft_export *.ico
+recursive-include saft_export *.js
+recursive-include saft_export *.json
+recursive-include saft_export *.md
+recursive-include saft_export *.png
+recursive-include saft_export *.py
+recursive-include saft_export *.svg
+recursive-include saft_export *.txt
+recursive-exclude saft_export *.pyc
